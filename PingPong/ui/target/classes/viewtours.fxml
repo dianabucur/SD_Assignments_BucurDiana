@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="413.0" prefWidth="617.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ro.utcluj.sd.ViewToursController">
+   <children>
+      <TextArea fx:id="tour" layoutX="96.0" layoutY="74.0" prefHeight="276.0" prefWidth="206.0">
+         <font>
+            <Font size="14.0" />
+         </font></TextArea>
+      <TextArea fx:id="level" layoutX="302.0" layoutY="74.0" prefHeight="276.0" prefWidth="120.0">
+         <font>
+            <Font size="14.0" />
+         </font></TextArea>
+      <TextArea fx:id="status" layoutX="422.0" layoutY="74.0" prefHeight="276.0" prefWidth="99.0">
+         <font>
+            <Font size="14.0" />
+         </font></TextArea>
+      <Label layoutX="139.0" layoutY="44.0" text="Tournament Name">
+         <font>
+            <Font name="BigNoodleTitling" size="22.0" />
+         </font></Label>
+      <Label layoutX="345.0" layoutY="44.0" text="Level">
+         <font>
+            <Font name="BigNoodleTitling" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="448.0" layoutY="44.0" text="Status">
+         <font>
+            <Font name="BigNoodleTitling" size="22.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
