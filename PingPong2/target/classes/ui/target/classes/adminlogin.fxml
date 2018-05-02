@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="413.0" prefWidth="617.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button layoutX="205.0" layoutY="115.0" mnemonicParsing="false" prefHeight="64.0" prefWidth="207.0" text="Manage Tournaments">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="205.0" layoutY="235.0" mnemonicParsing="false" prefHeight="64.0" prefWidth="207.0" text="Manage Players">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>
